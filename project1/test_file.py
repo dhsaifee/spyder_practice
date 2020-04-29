@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 29 04:54:51 2020
-
-@author: dhsaifee
-"""
-
-
-print('hello')
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4, 5])
+plt.ylabel('five integers')
+plt.show()
